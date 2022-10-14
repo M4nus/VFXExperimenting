@@ -93,6 +93,7 @@ Material:
     - _RefractionPower: 0.00002
     - _RenderQueueType: 4
     - _RequireSplitLighting: 0
+    - _Size: 1.22
     - _SrcBlend: 1
     - _StarsSize: 0.262
     - _StencilRef: 0
@@ -115,7 +116,8 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 1
     - _UseShadowThreshold: 0
-    - _VertexDisplacement: 13.37
+    - _VertexAmount: -0.1
+    - _VertexDisplacement: 13.47
     - _VertexFrequency: 1
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4

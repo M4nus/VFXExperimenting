@@ -19,6 +19,7 @@ public class PigeonMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
     public Animator anim;
+    public Animator shield;
     
 
     Vector3 velocity;
@@ -98,5 +99,16 @@ public class PigeonMovement : MonoBehaviour
             );
         }
         anim.SetFloat("Velocity", move.magnitude);
+        
+        /*
+        if(Mouse.current.leftButton.IsPressed())
+        {
+            shield.SetBool("FadeIn", true);
+        }
+        if(Mouse.current.rightButton.IsPressed())
+        {
+            shield.SetBool("FadeIn", false);
+        }
+        */
     }
 }
