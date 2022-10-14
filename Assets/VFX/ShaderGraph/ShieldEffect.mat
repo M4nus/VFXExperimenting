@@ -80,9 +80,9 @@ Material:
     - _DstBlend: 1
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
-    - _FresnelPower: 3.14
+    - _FresnelPower: 4.18
     - _IntersectEdge: 0.15
-    - _IntersectOffset: 0.985
+    - _IntersectOffset: 0.9778
     - _IntersectTime: 0.2
     - _OpaqueCullMode: 2
     - _RayTracing: 0
@@ -90,7 +90,7 @@ Material:
     - _ReceivesSSRTransparent: 1
     - _RefractionIndex: 0.05
     - _RefractionModel: 0
-    - _RefractionPower: 0.001
+    - _RefractionPower: 0.00002
     - _RenderQueueType: 4
     - _RequireSplitLighting: 0
     - _SrcBlend: 1
@@ -125,8 +125,8 @@ Material:
     - _BackFaceColor: {r: 0, g: 1.4431373, b: 1.4980392, a: 0.101960786}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FresnelColor: {r: 2, g: 2, b: 2, a: 1}
-    - _FrontFaceColor: {r: 95.87451, g: 17.568628, b: 0, a: 0.2}
+    - _FresnelColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
+    - _FrontFaceColor: {r: 11.984314, g: 2.1960785, b: 0, a: 0.2}
     - _IntersectPower: {r: 766.9961, g: 766.9961, b: 766.9961, a: 1}
     - _StarsColor: {r: 1367.12, g: 1367.12, b: 1367.12, a: 1}
     - _VertexAmount: {r: 0.1, g: 0.1, b: 0.1, a: 0}
